@@ -3,29 +3,29 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:elevation="3dp"
-    app:cardCornerRadius="10dp"
-    android:layout_margin="15dp">
+    android:elevation="@dimen/margin3"
+    app:cardCornerRadius="@dimen/margin10"
+    android:layout_margin="@dimen/margin15">
 
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="@dimen/margin10"
         android:orientation="vertical">
 
         <ImageView
             android:id="@+id/image"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/margin200"
             />
 
         <TextView
             android:id="@+id/tvTitle"
-            android:textSize="18sp"
+            android:textSize="@dimen/text18"
             android:textColor="@color/black"
-            android:text="Sample"
+            android:text="@string/sample"
             android:textStyle="bold"
             android:gravity="center_horizontal"
             android:textAlignment="center"
@@ -34,12 +34,12 @@
 
         <TextView
             android:id="@+id/tvDesc"
-            android:textSize="14sp"
+            android:textSize="@dimen/text14"
             android:maxLines="3"
             android:textAlignment="center"
             android:gravity="center_horizontal"
             android:textColor="@color/black"
-            android:text="Sample"
+            android:text="@string/sample"
             android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
