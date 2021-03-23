@@ -25,7 +25,6 @@
             android:id="@+id/tvTitle"
             android:textSize="18sp"
             android:textColor="@color/black"
-
             android:text="Sample"
             android:textStyle="bold"
             android:gravity="center_horizontal"
