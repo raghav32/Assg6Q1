@@ -60,12 +60,6 @@ class RecyclerListFragment : Fragment() {
         viewModel.makeApiCall()
     }
 
-    private fun initViewModel(){
-
-
-    }
-
-
     companion object {
         @JvmStatic
         fun newInstance() = RecyclerListFragment()
