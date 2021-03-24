@@ -11,11 +11,7 @@ import kotlinx.coroutines.launch
 
 class MainActivityViewModel:ViewModel() {
 
-    lateinit var recyclerListLiveData:MutableLiveData<RecyclerList>
-
-    init {
-        recyclerListLiveData= MutableLiveData()
-    }
+    var recyclerListLiveData:MutableLiveData<RecyclerList> = MutableLiveData()
 
     fun getRecyclerListObserver():MutableLiveData<RecyclerList>{
         return recyclerListLiveData
